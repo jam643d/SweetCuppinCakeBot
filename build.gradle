@@ -19,6 +19,8 @@ dependencies {
     compile "net.dv8tion:JDA:$jdaVersion"
     compile 'org.slf4j:slf4j-api:1.7.5'
     compile 'org.slf4j:slf4j-simple:1.7.5'
+    compile 'com.google.api-client:google-api-client:1.23.0'
+    compile 'com.google.oauth-client:google-oauth-client-jetty:1.23.0'
     compile 'com.google.apis:google-api-services-calendar:v3-rev20200315-1.30.9'
     compile 'com.esotericsoftware.yamlbeans:yamlbeans:1.08'
 }

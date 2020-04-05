@@ -9,6 +9,8 @@ import javax.annotation.Nonnull;
 public class Bot extends ListenerAdapter {
     public static void main(String[] arguments) throws Exception {
         new JDABuilder(ConfigLoader.loadConfig("Discord", "BOT_TOKEN")).addEventListeners(new Bot()).build();
+        GCalendar service = new GCalendar();
+        service.getCalendar();
     }
 
     @Override
